@@ -16,7 +16,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.4rem;
 }
 
 body::-webkit-scrollbar-track {
@@ -36,7 +36,7 @@ main {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 600ms ease;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .navbar-nav {
@@ -160,7 +160,7 @@ main {
   }
 
   .navbar:hover {
-    width: 16rem;
+    width: 18rem;
   }
 
   .navbar:hover .link-text {
@@ -169,7 +169,7 @@ main {
 
   .navbar:hover .logo svg
   {
-    margin-left: 11rem;
+    margin-left: 13rem;
   }
 
   .navbar:hover .logo-text
